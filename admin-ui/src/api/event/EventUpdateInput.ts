@@ -1,0 +1,8 @@
+import { CustomerWhereUniqueInput } from "../customer/CustomerWhereUniqueInput";
+
+export type EventUpdateInput = {
+  customer?: CustomerWhereUniqueInput | null;
+  date?: Date | null;
+  description?: string | null;
+  name?: string | null;
+};
